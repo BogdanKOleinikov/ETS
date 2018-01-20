@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="deckFactory" class="ets.DeckFactoryImpl" />
+	<bean id="shuffler" class="ets.ShufflerImpl" />
+	<bean id="deckHandler" class="ets.DeckHandlerRandomCardImpl" />
+	<bean id="dealer" class="ets.DealerImpl">
+		<property name="deckFactory" ref="deckFactory" />
+		<property name="shuffler" ref="shuffler" />
+		<property name="deckHandler" ref="deckHandler" />
+	</bean>
+</beans>
