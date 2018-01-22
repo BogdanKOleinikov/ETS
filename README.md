@@ -1,6 +1,6 @@
 # ETS
 **The 52 card application is configured through the Spring framework. The files included under the resources directory beans1.xml and 
-eans2.xml are the 2 configurations for the program to initialize the program.**
+beans2.xml are the 2 configurations for the program to initialize the program.**
 
 **beans1.xml is the default configuration that is run when the command line argument in the main method is not specified. The value
 highlighted in blue in the image below defines the implementation of the deckHandler which deals the first Card from the Deck of 52 cards.**
