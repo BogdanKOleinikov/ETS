@@ -1,4 +1,4 @@
-# ETS
+# Java/Spring Framework Code Implementation
 **The 52 card application is configured through the Spring framework. The files included under the resources directory beans1.xml and 
 beans2.xml are the 2 configurations for the program to initialize the program.**
 
